@@ -1,10 +1,5 @@
-
- * {
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap')
- } 
-
-
 @import './colors';
+
 
 html, body {
   margin: 0;
@@ -16,22 +11,21 @@ html, body {
 
 h2 {
   font-family: "Young Serif", serif;
-  font-weight: 900;
+  font-weight: 300;
   font-size: 30px;
 
   padding-left: 40px;
 }
 
 h3 {
-  font-family: "Young Serif", serif;
-  font-family: "Outfit", sans-serif;
   font-weight: bolder;
+  color: $color-five;
 }
 
 .container-info {
   background-color: $secundary-color;
-  width: 700px;
-  height: 520px;
+  width: 720px;
+  min-height: 540px;
 
   display: flex;
   flex-direction: column;
@@ -46,8 +40,8 @@ h3 {
     margin: 20px 20px;
 
     .card-img {
-      width: 550px;
-      height: 250px;
+      width: 680px;
+      height: 320px;
       border-radius: 10px;
     }
   }
@@ -59,4 +53,11 @@ h3 {
   font-family: "Outfit", sans-serif;
   color: $color-sex;
  }
+}
+
+.card-preparation {
+  width: 600px;
+  height: 100px;
+
+  background-color: $terciary-color;
 }
