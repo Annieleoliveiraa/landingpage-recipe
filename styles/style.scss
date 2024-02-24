@@ -15,15 +15,6 @@ html, body {
   background-color: $primary-color
 }
 
-h1 {
-  font-family: "Young Serif", serif;
-  font-weight: 300;
-  font-size: 30px;
-
-  padding-left: 29px;
-}
-
-
 span {
   color: $color-seven;
   font-weight: 900;
@@ -34,8 +25,9 @@ ul > li {
   padding-left: 14px;
 }
 
-li {
-  
+hr {
+  width: 635px;
+  color: $color-one;
 }
 
 .container-info {
@@ -49,6 +41,14 @@ li {
   margin: auto;
   margin-top: 10px;
   border-radius: 10px;
+
+  h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-size: 30px;
+  
+    padding-left: 29px;
+  }
 
   .img {
     display: flex;
@@ -95,8 +95,6 @@ li {
 }
 
 .card-ingredientes {
- 
-
   margin: 10px 10px;
   
 
@@ -108,4 +106,26 @@ li {
     padding-left: 20px;
     margin-top: -10px;
   }
+}
+
+.card-instructions {
+   margin: 30px;
+
+
+  h2 {
+    color: $color-four;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+
+    padding-left: 20px;
+  }
+
+.texto-ingre {
+  padding-left: 20px;
+  margin: 10px 10px;
+}
+
+.type {
+  font-weight: 900;
+}
 }
