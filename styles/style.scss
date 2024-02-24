@@ -129,3 +129,55 @@ hr {
   font-weight: 900;
 }
 }
+
+
+.card-nutrion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  h2 {
+    color: $color-four;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+    padding-left: 30px;
+  }
+
+  .text-nutrion {
+    padding-left: 32px;
+    font-weight: 700;
+    color: $color-eight;
+    margin-top: -8px;
+  }
+
+  .card-dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 15px;
+    justify-content: space-around;
+
+    .card-names {
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+
+      .texto-names {
+        color: $color-eight;
+        font-weight: 800;
+      }
+    }
+
+    .card-numbers {
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+
+      .texto-numbers {
+        color: $color-four;
+        font-weight: 800;
+      }
+    }
+  }
+}
