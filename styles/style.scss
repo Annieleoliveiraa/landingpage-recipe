@@ -26,7 +26,7 @@ ul > li {
 }
 
 hr {
-  width: 635px;
+  width: 639px;
   color: $color-one;
 }
 
@@ -111,7 +111,6 @@ hr {
 .card-instructions {
    margin: 30px;
 
-
   h2 {
     color: $color-four;
     font-family: "Young Serif", serif;
@@ -128,13 +127,14 @@ hr {
 .type {
   font-weight: 900;
 }
-}
 
+}
 
 .card-nutrion {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+
 
   h2 {
     color: $color-four;
@@ -145,39 +145,38 @@ hr {
 
   .text-nutrion {
     padding-left: 32px;
-    font-weight: 700;
+    font-weight: 600;
     color: $color-eight;
-    margin-top: -8px;
+    margin-top: 5px;
   }
 
   .card-dados {
     display: flex;
-    justify-content: center;
     align-items: center;
-    
-    gap: 15px;
+    gap: 40px;
     justify-content: space-around;
+    
 
-    .card-names {
-      display: flex;
-      gap: 8px;
-      flex-direction: column;
-
-      .texto-names {
-        color: $color-eight;
-        font-weight: 800;
-      }
-    }
-
-    .card-numbers {
-      display: flex;
-      gap: 8px;
-      flex-direction: column;
-
-      .texto-numbers {
-        color: $color-four;
-        font-weight: 800;
-      }
+    table {
+      width: 90%;
+      line-height: 35px;
+     
+       tbody {
+           
+        border-bottom: 1px solid $color-one;
+        width: 500px;
+         
+          th {
+            color: $color-sex;
+            border-bottom: 1px solid $color-one;
+          }
+  
+          td {
+            color: $color-four;
+            font-weight: 600;
+            border-bottom: 1px solid $color-one;
+        }
+      }  
     }
   }
 }
