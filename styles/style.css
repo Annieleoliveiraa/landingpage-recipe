@@ -4,7 +4,8 @@
   font-style: normal;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: "Young Serif", serif;
@@ -129,20 +130,20 @@ hr {
   gap: 40px;
   justify-content: space-around;
 }
-.card-nutrion .card-dados table {
-  width: 90%;
+.card-nutrion .card-dados table, .card-nutrion .card-dados th {
+  width: 50%;
   line-height: 35px;
-}
-.card-nutrion .card-dados table tbody {
-  border-bottom: 1px solid hsl(30, 18%, 87%);
-  width: 500px;
-}
-.card-nutrion .card-dados table tbody th {
   color: rgb(145, 144, 144);
-  border-bottom: 1px solid hsl(30, 18%, 87%);
+  border: 1px solid rgba(117, 116, 116, 0.774);
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: 30px;
 }
-.card-nutrion .card-dados table tbody td {
+.card-nutrion .card-dados td {
   color: hsl(14, 45%, 36%);
-  font-weight: 600;
-  border-bottom: 1px solid hsl(30, 18%, 87%);
+  font-weight: 700;
+  border: 1px solid rgba(117, 116, 116, 0.774);
+  text-align: center;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
