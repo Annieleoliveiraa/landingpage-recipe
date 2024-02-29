@@ -7,7 +7,8 @@
 }
 
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: "Young Serif", serif;
@@ -20,7 +21,7 @@ span {
   font-weight: 900;
 }
 
-ul > li {
+ul>li {
   margin: 12px;
   padding-left: 14px;
 }
@@ -46,7 +47,7 @@ hr {
     font-family: "Young Serif", serif;
     font-weight: 300;
     font-size: 30px;
-  
+
     padding-left: 29px;
   }
 
@@ -61,16 +62,16 @@ hr {
       border-radius: 10px;
     }
   }
-  
- .text-info {
-  margin-top: -28px;
-  padding: 20px 20px;
 
-  margin-left: 15px;
+  .text-info {
+    margin-top: -28px;
+    padding: 20px 20px;
 
-  font-family: "Outfit", sans-serif;
-  color: $color-sex;
- }
+    margin-left: 15px;
+
+    font-family: "Outfit", sans-serif;
+    color: $color-sex;
+  }
 }
 
 .card-preparation {
@@ -91,12 +92,12 @@ hr {
     padding-left: 34px;
     margin-top: 25px;
   }
-  
+
 }
 
 .card-ingredientes {
   margin: 10px 10px;
-  
+
 
   h2 {
     color: $color-four;
@@ -109,7 +110,7 @@ hr {
 }
 
 .card-instructions {
-   margin: 30px;
+  margin: 30px;
 
   h2 {
     color: $color-four;
@@ -119,14 +120,14 @@ hr {
     padding-left: 20px;
   }
 
-.texto-ingre {
-  padding-left: 20px;
-  margin: 10px 10px;
-}
+  .texto-ingre {
+    padding-left: 20px;
+    margin: 10px 10px;
+  }
 
-.type {
-  font-weight: 900;
-}
+  .type {
+    font-weight: 900;
+  }
 
 }
 
@@ -155,28 +156,25 @@ hr {
     align-items: center;
     gap: 40px;
     justify-content: space-around;
-    
 
-    table {
-      width: 90%;
+
+    table, th {
+      width: 50%;
       line-height: 35px;
-     
-       tbody {
-           
-        border-bottom: 1px solid $color-one;
-        width: 500px;
-         
-          th {
-            color: $color-sex;
-            border-bottom: 1px solid $color-one;
-          }
-  
-          td {
-            color: $color-four;
-            font-weight: 600;
-            border-bottom: 1px solid $color-one;
-        }
-      }  
+      color: $color-sex;
+      border: 1px solid $color-eight;
+      margin-top: 20px;
+      border-radius: 10px;
+      margin-right: auto;
+      margin-left: 30px;
+    }
+
+    td {
+      color: $color-four;
+      font-weight: 700;
+      border: 1px solid $color-eight;
+      text-align: center;
+      border-radius: 10px;
     }
   }
 }
