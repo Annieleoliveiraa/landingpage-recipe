@@ -4,8 +4,7 @@
   font-style: normal;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   font-family: "Young Serif", serif;
@@ -41,7 +40,8 @@ hr {
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
 }
 .container-info h1 {
@@ -136,23 +136,21 @@ hr {
   color: rgba(117, 116, 116, 0.774);
   margin-top: 5px;
 }
-.card-nutrion .card-dados tr {
-  border-bottom: 1px solid black;
+
+.card-dados table {
+  padding-left: 42px;
 }
-.card-nutrion .card-dados table, .card-nutrion .card-dados tbody {
-  padding-left: 80px;
-}
-.card-nutrion .card-dados table th, .card-nutrion .card-dados tbody th {
+.card-dados table tr th {
   color: rgba(117, 116, 116, 0.774);
   font-weight: 700;
   padding: 15px;
 }
-.card-nutrion .card-dados table td, .card-nutrion .card-dados tbody td {
+.card-dados table tr td {
   padding: 15px;
   color: hsl(14, 45%, 36%);
   font-weight: 900;
   padding-left: 15rem;
 }
-.card-nutrion .card-dados table .tr-4, .card-nutrion .card-dados tbody .tr-4 {
+.card-dados table tr .tr-4 {
   border: none;
 }/*# sourceMappingURL=style.css.map */
