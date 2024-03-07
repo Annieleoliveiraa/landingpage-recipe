@@ -6,9 +6,7 @@
   font-style: normal;
 }
 
-
-html,
-body {
+html,body {
   margin: 0;
   padding: 0;
   font-family: "Young Serif", serif;
@@ -27,7 +25,7 @@ strong {
   font-size: 17px;
 }
 
-ul>li {
+ul > li {
   margin: 12px;
   padding-left: 14px;
 }
@@ -36,6 +34,7 @@ hr {
   width: 639px;
   color: $color-one;
 }
+
 
 .container-info {
   background-color: $secundary-color;
@@ -46,14 +45,14 @@ hr {
   flex-direction: column;
 
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
 
   h1 {
     font-family: "Young Serif", serif;
     font-weight: 300;
     font-size: 30px;
-
     padding-left: 29px;
   }
 
@@ -80,6 +79,7 @@ hr {
   }
 }
 
+
 .card-preparation {
   width: 620px;
   height: 175px;
@@ -104,8 +104,8 @@ hr {
       color: $color-five;
     }
   }
-
 }
+
 
 .card-ingredientes {
   margin: 10px 10px;
@@ -124,8 +124,8 @@ hr {
       color: $color-four;
     }
   }
-
 }
+
 
 .card-instructions {
   margin: 30px;
@@ -146,14 +146,13 @@ hr {
   .type {
     font-weight: 900;
   }
-
 }
+
 
 .card-nutrion {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-
 
   h2 {
     color: $color-four;
@@ -168,34 +167,33 @@ hr {
     color: $color-eight;
     margin-top: 5px;
   }
+}
 
-  .card-dados { 
 
-    tr {
-      border-bottom: 1px solid black;
-    }
+.card-dados {
+
+  table {
+   padding-left: 42px;
    
-    table,tbody {
-     padding-left: 80px;
-
+  
+   tr {
+   
     th {
       color: $color-eight;
       font-weight: 700;
-
       padding: 15px;
     }
 
     td {
       padding: 15px;
-
       color: $color-four;
       font-weight: 900;
       padding-left: 15rem;
     }
 
     .tr-4 {
-    border: none;
-   }
+      border: none;
+    }
   }
  }
 }
