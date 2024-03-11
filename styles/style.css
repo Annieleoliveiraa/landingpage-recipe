@@ -137,20 +137,24 @@ hr {
   margin-top: 5px;
 }
 
-.card-dados table {
-  padding-left: 42px;
+.card-table table {
+  margin-left: 42px;
 }
-.card-dados table tr th {
+.card-table table th {
   color: rgba(117, 116, 116, 0.774);
   font-weight: 700;
-  padding: 15px;
+  padding-left: 17px;
+  border-bottom: 1px solid rgba(117, 116, 116, 0.774);
+  width: 200px;
 }
-.card-dados table tr td {
-  padding: 15px;
+.card-table table td {
+  padding: 12px;
   color: hsl(14, 45%, 36%);
   font-weight: 900;
-  padding-left: 15rem;
+  padding-left: 16rem;
+  border-bottom: 1px solid rgba(117, 116, 116, 0.774);
+  width: 300px;
 }
-.card-dados table tr .tr-4 {
+.card-table table .tr-4 {
   border: none;
 }/*# sourceMappingURL=style.css.map */
