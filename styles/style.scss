@@ -170,30 +170,30 @@ hr {
 }
 
 
-.card-dados {
+.card-table {
 
   table {
-   padding-left: 42px;
-   
-  
-   tr {
+   margin-left: 42px;
    
     th {
       color: $color-eight;
       font-weight: 700;
-      padding: 15px;
+      padding-left: 17px;
+      border-bottom: 1px solid $color-eight;
+      width: 200px;
     }
 
     td {
-      padding: 15px;
+      padding: 12px;
       color: $color-four;
       font-weight: 900;
-      padding-left: 15rem;
+      padding-left: 16rem;
+      border-bottom: 1px solid $color-eight;
+      width: 300px;
     }
 
     .tr-4 {
       border: none;
     }
-  }
  }
 }
