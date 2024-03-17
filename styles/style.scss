@@ -6,7 +6,8 @@
   font-style: normal;
 }
 
-html,body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: "Young Serif", serif;
@@ -25,7 +26,7 @@ strong {
   font-size: 17px;
 }
 
-ul > li {
+ul>li {
   margin: 12px;
   padding-left: 14px;
 }
@@ -164,36 +165,33 @@ hr {
   .text-nutrion {
     padding-left: 50px;
     font-weight: 600;
-    color: $color-eight;
+    color: $color-seven;
     margin-top: 5px;
   }
 }
 
+.table {
+ 
 
-.card-table {
+  th {
+    color: $color-eight;
+    font-weight: 700;
+    padding-left: 17px;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+    width: 200px;
+  }
 
-  table {
-   margin-left: 42px;
-   
-    th {
-      color: $color-eight;
-      font-weight: 700;
-      padding-left: 17px;
-      border-bottom: 1px solid $color-eight;
-      width: 200px;
-    }
+  td {
+    padding: 12px;
+    color: $color-four;
+    font-weight: 900;
+    padding-left: 16rem;
+    border-bottom: 1px solid black;
+  }
 
-    td {
-      padding: 12px;
-      color: $color-four;
-      font-weight: 900;
-      padding-left: 16rem;
-      border-bottom: 1px solid $color-eight;
-      width: 300px;
-    }
 
-    .tr-4 {
-      border: none;
-    }
- }
+  .type1, .type2 {
+    border: none;
+  }
 }
