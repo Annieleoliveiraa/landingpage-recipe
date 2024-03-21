@@ -18,6 +18,7 @@ body {
 span {
   color: $color-eight;
   font-size: 16px;
+  font-weight: 300;
 }
 
 strong {
@@ -30,12 +31,6 @@ ul>li {
   margin: 12px;
   padding-left: 14px;
 }
-
-hr {
-  width: 639px;
-  color: $color-one;
-}
-
 
 .container-info {
   background-color: $secundary-color;
@@ -74,6 +69,7 @@ hr {
     padding: 20px 20px;
 
     margin-left: 15px;
+    font-weight: 500;
 
     font-family: "Outfit", sans-serif;
     color: $color-sex;
@@ -87,9 +83,10 @@ hr {
   border-radius: 14px;
 
   background-color: $terciary-color;
-  margin-left: 19px;
+  padding-left: 5px;
+
   margin-top: -5px;
-  margin: auto;
+  margin-left: 30px;
   margin-bottom: 24px;
 
   h3 {
@@ -110,6 +107,11 @@ hr {
 
 .card-ingredientes {
   margin: 10px 10px;
+  border-bottom: 1px solid gainsboro;
+
+  width: 96%;
+  border-right: 40px;
+  padding-bottom: 15px;
 
   h2 {
     color: $color-four;
@@ -130,13 +132,21 @@ hr {
 
 .card-instructions {
   margin: 30px;
+  margin-top: 6px;
+
+  border-bottom: 1px solid gainsboro;
+
+  padding-bottom: 30px;
+
 
   h2 {
     color: $color-four;
     font-family: "Young Serif", serif;
     font-weight: 200;
 
-    padding-left: 20px;
+    padding-left: 4px;
+
+    margin-top: -8px;
   }
 
   .texto-ingre {
@@ -144,9 +154,13 @@ hr {
     margin: 10px 10px;
   }
 
-  .type {
-    font-weight: 900;
+ol {
+  li {
+    color: $color-four;
+    font-weight: bold;
   }
+}
+
 }
 
 
@@ -159,27 +173,32 @@ hr {
     color: $color-four;
     font-family: "Young Serif", serif;
     font-weight: 200;
-    padding-left: 50px;
+    padding-left: 35px;
+    margin-top: -2px;
   }
 
   .text-nutrion {
-    padding-left: 50px;
-    font-weight: 600;
-    color: $color-seven;
+    padding-left: 40px;
+    font-weight: 500;
+    color: $color-nine;
     margin-top: 5px;
   }
 }
 
-.table {
- 
+  .table {
+    border-collapse: collapse;
+    
+  
+
+  tr {
+    border-bottom: 1px solid $color-ten;
+  }
 
   th {
     color: $color-eight;
-    font-weight: 700;
-    padding-left: 17px;
-    border-bottom: 1px solid black;
-    margin-left: 10px;
-    width: 200px;
+    font-weight: 500;
+    padding-left: 36px;
+    margin-left: 15px;
   }
 
   td {
@@ -187,9 +206,7 @@ hr {
     color: $color-four;
     font-weight: 900;
     padding-left: 16rem;
-    border-bottom: 1px solid black;
   }
-
 
   .type1, .type2 {
     border: none;
