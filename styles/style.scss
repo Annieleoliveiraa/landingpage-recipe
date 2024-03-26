@@ -188,24 +188,27 @@ ol {
   .table {
     border-collapse: collapse;
     
-  
 
   tr {
     border-bottom: 1px solid $color-ten;
-  }
+  
 
-  th {
-    color: $color-eight;
-    font-weight: 500;
-    padding-left: 36px;
-    margin-left: 15px;
-  }
+    th {
+      color: $color-eight;
+      font-weight: 500;
+      font-size: 19px;
+      
+      padding-left: 36px;
+      margin-left: 15px;
+    }
 
-  td {
-    padding: 12px;
-    color: $color-four;
-    font-weight: 900;
-    padding-left: 16rem;
+    td {
+      padding: 12px;
+      color: $color-four;
+      font-weight: 900;
+      padding-left: 16rem;
+    }
+  
   }
 
   .type1, .type2 {

@@ -151,13 +151,14 @@ ul > li {
 .table tr {
   border-bottom: 1px solid #d5d8d9;
 }
-.table th {
+.table tr th {
   color: rgba(66, 65, 65, 0.774);
   font-weight: 500;
+  font-size: 19px;
   padding-left: 36px;
   margin-left: 15px;
 }
-.table td {
+.table tr td {
   padding: 12px;
   color: hsl(14, 45%, 36%);
   font-weight: 900;
