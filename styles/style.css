@@ -4,8 +4,7 @@
   font-style: normal;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   font-family: "Young Serif", serif;
@@ -89,7 +88,8 @@ ul > li {
 .card-ingredientes {
   margin: 10px 10px;
   border-bottom: 1px solid gainsboro;
-  width: 96%;
+  width: 40rem;
+  margin-left: 30px;
   border-right: 40px;
   padding-bottom: 15px;
 }
@@ -114,7 +114,7 @@ ul > li {
   color: hsl(14, 45%, 36%);
   font-family: "Young Serif", serif;
   font-weight: 200;
-  padding-left: 4px;
+  padding-left: 18px;
   margin-top: -8px;
 }
 .card-instructions .texto-ingre {
@@ -147,22 +147,22 @@ ul > li {
 
 .table {
   border-collapse: collapse;
-}
-.table tr {
-  border-bottom: 1px solid #d5d8d9;
+  width: 600px;
+  margin-left: 50px;
 }
 .table tr th {
   color: rgba(66, 65, 65, 0.774);
   font-weight: 500;
   font-size: 19px;
-  padding-left: 36px;
-  margin-left: 15px;
+  padding-right: -16px;
+  border-bottom: 1px solid #d5d8d9;
 }
 .table tr td {
   padding: 12px;
   color: hsl(14, 45%, 36%);
   font-weight: 900;
-  padding-left: 16rem;
+  padding-left: 10rem;
+  border-bottom: 1px solid #d5d8d9;
 }
 .table .type1, .table .type2 {
   border: none;
