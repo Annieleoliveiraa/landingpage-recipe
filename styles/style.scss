@@ -113,7 +113,6 @@ ul > li {
     color: $color-four;
     font-family: "Young Serif", serif;
     font-weight: 200;
-
     padding-left: 20px;
     margin-top: -10px;
   }
@@ -223,24 +222,59 @@ ol {
   .card-info img {
     max-width: 375px;
     max-height: 230px;
+
+    border-radius: 0px;
   }
 
   .card-ingredientes {
-   width: 340px;
+    border-bottom: 1px solid gainsboro;
+
+    width: 310px;
+  }
+
+  .card-ingredientes h2 {
+    margin-left: -15px;
+  }
+
+  .card-ingredientes ul {
+    margin-left: -25px;
+    width: 330px;
+  }
+
+  .card-instructions {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .card-instructions h2 {
+    margin-left: -15px;
+  }
+
+  .card-instructions ol {
+    margin-left: -28px;
   }
 
   .card-preparation {
     width: 320px;
   }
 
+  .card-preparation h3 {
+    padding-left: -35px;
+  }
+
+  .card-preparation ul {
+    margin-left: -18px;
+  }
+
   .card-nutrion {
     width: 350px;
   }
 
+  .card-nutrion h2 {
+    margin-top: -14px;
+  }
+
   .table {
-    width: 300px;
-    th,td {
-     border-bottom: 1px solid gainsboro;
-    }
+    width: 310px;
+    padding-left: 15px;
   }
 } 
