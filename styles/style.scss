@@ -210,6 +210,9 @@ ol {
     margin-bottom: 0px;
 
     border-radius: 0;
+    
+
+
   }
 
   .card-info {
@@ -220,10 +223,13 @@ ol {
   }
 
   .card-info img {
-    max-width: 375px;
+    max-width: 100%;
     max-height: 230px;
 
     border-radius: 0px;
+
+    padding: 8px 7px;
+    padding-top: -5px;
   }
 
   .card-ingredientes {
